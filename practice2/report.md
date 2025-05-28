@@ -353,6 +353,11 @@ for --hard the commit is completely removed and there's nothing to commit
 
 ## Website for a fast-food franchise
 
-| Priority | User Story | Requirements |
-| --- | --- | --- |
-| P1 | As a customer I want to have a simple infocard about the food item I'm ordering, so that I know what I'm ordering, what it looks like and how much am I paying. | Infocard that shows item's:<ul><li>name</li><li>image</li><li>calories</li><li>price</li><li>ingredients</li></ul> |
+| **User Story** | **Priority** | **Priority Reason** | **Requirements** |
+|----------------|--------------|----------------------|------------------|
+| As a customer, I want to browse the menu with descriptions and prices so that I can decide what to order. | P0 | Essential for seeing what to order; without this, users can’t interact meaningfully with the site. | 1. Display all menu items grouped by category. <br> 2. Include name, description, price, and image for each item. <br> 3. Allow filtering by category or dietary preference. |
+| As a customer, I want to place an online order for pickup or delivery so that I can enjoy food at my convenience. | P0 | The main purpose of the website is to enable online ordering. | 1. Add items to a shopping cart. <br> 2. Choose between pickup and delivery. <br> 3. Collect customer data at checkout. |
+| As a returning customer, I want to view my order history so that I can order the food I liked again. | P2 | Useful for retention and convenience, but not critical for new orders. | 1. User orders logged. <br> 2. View and repeat past orders. |
+| As a user, I want to find the nearest restaurant based on my location so that I can visit or order from the closest place. | P1 | Improves convenience, especially for delivery, but not strictly required for basic ordering. | 1. Enter address or geolocation. <br> 2. Display address, hours, and contacts for each location. |
+| As an admin, I want to add, update, or remove menu items so that the website always shows accurate offers. | P2 | Useful for food chain updates, but not needed in early MVP. | 1. Secyre admin login. <br> 2. Admin can add/update/delete menu items. |
+| As an admin, I want to view and manage customer orders so that I can guarantee preparation and delivery on time. | P1 | Important for fulfilling orders, especially when time is costly. | 1. View incoming and previous orders. <br> 2. Update order status. <br> 3. Cancel orders and notify customers. |
