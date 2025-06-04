@@ -1,0 +1,2 @@
+DeepL Write was used for refining the text for test cases. (When asked GPT to create a table from the final text, it dumbed it down anyways ¯\_(ツ)_/¯):
+https://chatgpt.com/share/6840ad2f-5414-8004-ac4a-a09021e42a72
